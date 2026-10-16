@@ -1,0 +1,19 @@
+/* User-supplied detective characters, prepared as transparent PNG cutouts. */
+.home-detectives{width:132%;left:-19%;height:575px;gap:0;bottom:14px;align-items:flex-end}
+.home-detectives img{width:43%;height:auto;max-height:100%;object-fit:contain;filter:drop-shadow(0 13px 5px #101f4655)}
+.home-detectives .adam{margin-right:-9%;transform:rotate(-4deg);z-index:2}
+.home-detectives .aina{margin-right:-9%;transform:rotate(1deg);z-index:3}
+.home-detectives .hijab{transform:rotate(5deg);z-index:2;animation:detectiveBob 5s ease-in-out 1.7s infinite}
+.adam-label{left:-3%;bottom:4px}.aina-label{left:38%;right:auto;bottom:2px;background:#ffd1ac}.hijab-label{right:-7%;bottom:6px;transform:rotate(6deg);background:#b4e9ff}
+.speech-bubble{left:27%;top:9%}
+.avatar-option{width:33.333%;gap:5px;padding:0 7px;position:relative}.avatar-option img{height:77px;width:42px;object-fit:cover;object-position:top;max-width:none;margin-top:-1px}.avatar-option span{font-size:11px;line-height:1.1}.avatar-option .icon{width:14px}.avatar-option input{width:13px;height:13px;margin:0;flex-shrink:0}
+.player>img{object-fit:cover;object-position:center 13%;padding-top:0}
+.help-characters{gap:5px}.help-characters img{width:110px;object-fit:contain}
+.side-guide img{width:165px;height:250px;object-fit:contain;left:-17px}
+.brief-detectives img{object-fit:contain}.cert-adam,.cert-aina{object-fit:contain}
+@media(min-width:1600px){.home-detectives{height:640px;width:131%;left:-18%}.home-detectives img{width:43%}}
+@media(max-width:1100px){.home-detectives{height:465px;bottom:60px;width:160%;left:-36%}.adam-label{left:-17%;bottom:45px}.aina-label{left:33%;bottom:43px}.hijab-label{right:-18%;bottom:48px}.speech-bubble{top:16%;left:12%}.avatar-option{gap:4px;padding-inline:5px}.avatar-option img{width:31px;height:62px}.avatar-option span{font-size:10px}.avatar-option .icon{display:none}}
+@media(max-width:800px){.home-detectives{height:420px;width:174%;left:-44%;bottom:120px}.adam-label{left:-24%;bottom:108px}.aina-label{left:30%;bottom:103px}.hijab-label{right:-22%;bottom:105px}.avatar-option{gap:3px;padding-inline:4px}.avatar-option img{width:26px;height:54px}.avatar-option input{height:11px;width:11px}.avatar-option span{font-size:9px}.side-guide img{width:140px;height:210px;left:0}}
+@media(max-width:560px){.home-detectives{height:285px;width:120%;left:-10%;bottom:0}.home-detectives img{width:43%;max-height:100%;height:auto}.home-detectives .adam{margin-right:-9%}.home-detectives .aina{margin-right:-9%}.welcome-world{height:300px;margin-top:8px}.speech-bubble{top:6px;left:26%;font-size:9px;padding:7px 10px;min-width:135px;z-index:5}.floating-evidence{top:35%;right:-2%;z-index:0}.adam-label{bottom:1px;left:4%;font-size:6px;padding:5px}.aina-label{left:38%;bottom:0;font-size:6px;padding:5px}.hijab-label{right:0;bottom:1px;font-size:6px;padding:5px}.avatars{gap:6px}.avatar-option{height:48px;padding:0 5px;gap:4px}.avatar-option img{width:31px;height:66px}.avatar-option span{font-size:9px}.avatar-option input{height:12px;width:12px}.side-guide img{height:172px;width:114px;left:0;bottom:-9px}.help-characters img{width:90px}.victory-detectives{gap:10px}.victory-detectives img{height:215px;width:150px}.brief-detectives{gap:10px}}
+@media(max-width:560px){.home-detectives{width:106%;left:-3%}.floating-evidence{display:none}.adam-label{left:3%}.hijab-label{right:1%}}
+@media(max-width:360px){.avatar-option{gap:3px;padding:0 3px}.avatar-option img{width:26px}.avatar-option span{font-size:8px}.home-detectives{height:260px}.welcome-world{height:275px}.hijab-label{right:-1%}.side-guide img{width:105px;height:161px}}
